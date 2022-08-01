@@ -48,4 +48,24 @@ const images = [
   'https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-674010.jpg&fm=jpg',
   'https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80',
 ]
+```  
+and map these Images.  
+```javascript 
+
+              images.map((item, index) => (
+                <img
+                  onClick={() => setImgItem(index)}
+                  key={index}
+                  className={index === imgItem ? 'active-image' : ''}
+                  src={item}
+                  alt=''
+                  style={{
+                    width: '100px',
+                    height: '125px',
+                    margin: '5px',
+                    cursor: 'pointer',
+                  }}
+                  />
+             
 ```
+
