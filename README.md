@@ -38,6 +38,13 @@ const openModal => () {
 ## Step 4  
 Next step is all about the view how you want to open and view your react modal, in my case it will look like this.  
 ![imageViewer!](/src/images/imageviewer.png 'image viewer')  
-you can check this code in github, 
+you can check this JSX in github,   
 ## Step 5
-let's render our images, In my case Images are coming from an API that's why I passed that in a prop, but for the sake of this tutorial I will statically pass an array of some random images,
+let's render our images, In my case Images are coming from an API that's why I passed that in a prop, but for the sake of this tutorial I will statically pass an array of some random images.  ```javascript
+const images = [
+  'https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80',
+  'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
+  'https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-674010.jpg&fm=jpg',
+  'https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80',
+]
+```
