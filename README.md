@@ -7,19 +7,19 @@ First I am going to install react modal with this command.
   > npm install react-modal
 ## Step 2
 next I am going to render a clickable component, It could be anything a text or a image which can be click and view the image or a link having multiple images to view, In my case there are multiple images to view I will render a simple clickable text to view images Which I will pass as a prop.  
-    `export default function ImageViewer({ images, patientName, date }) {
-    const [imgItem, setImgItem] = React.useState(0)
-    const [modalIsOpen, setIsOpen] = React.useState(false)
-    const recordLength = images.length - 1
-    function openModal() {
-    setIsOpen(true)
-    }
-    function closeModal() {
-    setIsOpen(false)
-    }
-    return (
-    <span className='image-view' onClick={openModal}>
-        View File
-      </span>
-     )
-      }`
+    `export default function ImageViewer({ images, patientName, date }) {  
+    const [imgItem, setImgItem] = React.useState(0)  
+    const [modalIsOpen, setIsOpen] = React.useState(false)  
+    const recordLength = images.length - 1  
+    function openModal() {  
+    setIsOpen(true)  
+    }  
+    function closeModal() {  
+    setIsOpen(false)  
+    }  
+    return (  
+    <span className='image-view' onClick={openModal}>  
+        View File  
+      </span>  
+     )  
+      }`  
