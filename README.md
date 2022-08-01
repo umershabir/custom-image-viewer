@@ -105,3 +105,6 @@ To view forward image and reverse I just creadet two simple buttons with fontawe
                 }
               >
 ```
+### Summary   
+In this article I wanted to help others to view images in react with just simple and low coding technique, I always prefer to code little functionalites rather than using libraries for every little things. I hope you enjoyed it and it helped you.  
+thanks for reading!
