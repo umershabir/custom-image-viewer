@@ -16,3 +16,22 @@ export default function ImageViewer() {
   )
   }
   ```
+## Step 3
+Next I am going to make this line clickable by applying onClick function and link it to the react modal.  
+```javascript
+import React from 'react'
+import Modal from 'react-modal'  
+export default function ImageViewer() {
+const openModal => () {
+    setIsOpen(true)
+  }
+  const closeModal => () {
+    setIsOpen(false)
+  }
+  return (
+  <span className='image-view' onClick={openModal}>
+        View File
+      </span>
+  )
+  }
+  ```
