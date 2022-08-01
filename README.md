@@ -10,7 +10,7 @@ next I am going to render a clickable component, It could be anything a text or 
 ```
 export default function ImageViewer() {
   return (
-  <span className='image-view' onClick={openModal}>
+  <span className='image-view'>
         View File
       </span>
   )
