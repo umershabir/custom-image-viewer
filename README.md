@@ -78,4 +78,30 @@ and pass the index number of image to the main hero image with array index to ge
                   className='rounded'
                 />
 ```
-
+## Step 6: Forward and Reverse Image
+To view forward image and reverse I just creadet two simple buttons with fontawesome icons and functioned them onclick to just step one array index number or step back array index number check out this.  
+##### Step Back
+```javascript 
+<button
+                className='btn'
+                style={{ color: '#666666' }}
+                onClick={() =>
+                  setImgItem(imgItem === 0 ? imgItem : imgItem - 1)
+                }
+              >
+                <i
+                  className='fas fa-chevron-circle-left'
+                  style={{ fontSize: 30 }}
+                ></i>
+              </button>
+```  
+##### Step Forward
+```javascript 
+<button
+                className='btn'
+                style={{ color: '#666666' }}
+                onClick={() =>
+                  setImgItem(imgItem === recordLength ? imgItem : imgItem + 1)
+                }
+              >
+```
