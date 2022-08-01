@@ -19,6 +19,10 @@ export default function ImageViewer({ images, patientName, date }) {
   function closeModal() {
     setIsOpen(false)
   }
-  return ()
+  return (
+  <span className='image-view' onClick={openModal}>
+        View File
+      </span>
+  )
   }
   ```
