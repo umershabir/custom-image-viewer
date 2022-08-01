@@ -68,5 +68,14 @@ and map these Images.
                   />
              
 ```   
-I styled active image with active class the logic is if image index is equal to ImageItem number add active class by onClicking function which set the image index to image item so the condition equates true and active class added.
+I styled active image with active class the logic is if image index is equal to ImageItem number add active class by onClicking function which set the image index to image item so the condition equates true and active class added.  
+and pass the index number of image to the main hero image with array index to get the acutal image.
+```javascript
+                  <img
+                  src={images[imgItem]}
+                  alt=''
+                  style={{ width: '400px', height: '550px' }}
+                  className='rounded'
+                />
+```
 
